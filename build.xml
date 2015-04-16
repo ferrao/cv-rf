@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project default="all">
+
+	<import file="../hr-xsl-0.13/util/hr-xsl.xml"/>
+
+	<target name="all" depends="html, pdf, text"/>
+
+	<target name="html">
+		<resume-to-html in="resume.xml"/>
+	</target>
+
+	<target name="pdf">
+		<resume-to-pdf in="resume.xml"/>
+	</target>
+
+	<target name="text">
+		<resume-to-text in="resume.xml"/>
+	</target>
+	
+	<target name="validate">
+		<validate in="resume.xml"/>
+	</target>
+	
+	<target name="clean">
+		<delete file="resume-docbook.xml"/>
+		<delete file="resume.html"/>
+		<delete file="resume.fo"/>
+		<delete file="resume.pdf"/>
+		<delete file="resume.txt"/>
+	</target>
+
+</project>

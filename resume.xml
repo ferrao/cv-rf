@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Resume
+        xmlns="http://ns.hr-xml.org/2007-04-15"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://ns.hr-xml.org/2007-04-15 Resume.xsd">
+
+    <StructuredXMLResume>
+
+        <ContactInfo>
+            <PersonName>
+                <GivenName>Rui</GivenName>
+                <FamilyName>Ferrão</FamilyName>
+            </PersonName>
+            <ContactMethod>
+                <Mobile>
+                    <FormattedNumber>+351 91 031 0848</FormattedNumber>
+                </Mobile>
+                <InternetEmailAddress>mail@ruiferrao.com</InternetEmailAddress>
+                <InternetWebAddress>
+                    http://www.ruiferrao.com
+                </InternetWebAddress>
+            </ContactMethod>
+        </ContactInfo>
+
+        <Objective>
+
+            An enthusiastic, self-motivating and highly committed software engineer, with a tremendous appetite for
+            learning. Worked as a senior Network and Systems Administrator, but missing all the fun and joy from coding
+            decided to go back into Software Development. Throughout the process I discovered that C was no longer cool
+            and had to adjust to Java for a couple of years until Javascript expressiveness caught my attention.
+
+            After prototyping mobile apps with Ionic, getting some rest APIs working with Hapi.js and Node.js, learning
+            some AngularJS, replacing the MySQL installs with MongoDB and testing it all with Jasmine, I am now looking
+            for a career change and pursuing a Javascript Full Stack development path.
+
+        </Objective>
+
+
+
+        <EmploymentHistory>
+
+            <EmployerOrg employerOrgType="soleEmployer">
+                <EmployerOrgName>Eixo Digital, Lda.</EmployerOrgName>
+                <PositionHistory positionType="directHire">
+                    <Title>Managing Director</Title>
+                    <OrgName>
+                        <OrganizationName>Software Division</OrganizationName>
+                    </OrgName>
+                    <OrgInfo>
+                        <WebSite>http://www.eixodigital.com</WebSite>
+                        <LocationSummary>
+                            <Municipality>Lisbon</Municipality>
+                            <CountryCode>PT</CountryCode>
+                        </LocationSummary>
+                    </OrgInfo>
+                    <Description>
+                        Developed a User Experience Monitor software for collecting test data from Inmarsat BGAN terminals using a full Javascript stack (Angular/Node.js/MongoDB)
+                        Designed and Developed a JSON-RPC based interface for terminal equipment instrumentation and automation using the Java programming language
+                        Actively involved in a number of successful software development projects for the space segment in collaboration with Inmarsat plc, Cobham Satcom and the European Space Agency (ESA)
+                        Implemented along with five other team members, the design and development of the Maritime Safety Server for Cobham Satcom, a High-Availability (99.9%) and geo-replicated system, central part of the Inmarsat Maritime Safety ground infrastructure, using the Java programming language on the backend and Javascript on the frontend
+                        Participated in the development of a Maritime Safety Terminal type approval software, a tool used by Inmarsat for the development and automation of terminal certification tests, using the Java programming language
+                        Implemented along with two other team members, the design and development of a Dynamic Telemetry Service for Inmarsat, a High-Availability (99.95%) and geo-replicated service for capturing, storing and distributing telemetry data, using the Java programming language on the backend and Javascript on the frontend and capable of handling an excess of 300 transactions per second
+                        Designed and implemented a DNS, web and email hosting service supporting 50+ users
+                        Interviewed 20+ software developer candidates
+                        Oversaw development, technical operations, quality assurance and IT
+                        Helped raise over €700K of European investment funds
+                    </Description>
+                    <StartDate>
+                        <YearMonth>2007-09</YearMonth>
+                    </StartDate>
+                </PositionHistory>
+            </EmployerOrg>
+
+            <EmployerOrg employerOrgType="directHire">
+                <EmployerOrgName>Ericsson Portugal</EmployerOrgName>
+                <PositionHistory positionType="contract">
+                    <Title>Senior Support Engineer</Title>
+                    <OrgName>
+                        <OrganizationName>Field Support Centre</OrganizationName>
+                    </OrgName>
+                    <OrgInfo>
+                        <WebSite>http://www.ericsson.pt</WebSite>
+                        <LocationSummary>
+                            <Municipality>Lisbon</Municipality>
+                            <CountryCode>PT</CountryCode>
+                        </LocationSummary>
+                    </OrgInfo>
+                    <Description>
+                        Responsible for the deployment and support of the mobile data network infrastructures of the Portuguese Optimus and Vodafone 3G operators
+                        Responsible for the deployment and support of the mobile data network infrastructures of the Angolan Unitel 3G operator
+                        Interviewed 10+ senior support engineer candidates
+                    </Description>
+                    <StartDate>
+                        <YearMonth>2006-09</YearMonth>
+                    </StartDate>
+                    <EndDate>
+                        <YearMonth>2007-09</YearMonth>
+                    </EndDate>
+                </PositionHistory>
+            </EmployerOrg>
+
+            <EmployerOrg employerOrgType="directHire">
+                <EmployerOrgName>Nokia Argentina</EmployerOrgName>
+                <PositionHistory positionType="contract">
+                    <Title>GPRS Consultant</Title>
+                    <OrgName>
+                        <OrganizationName>Engineering Department</OrganizationName>
+                    </OrgName>
+                    <OrgInfo>
+                        <WebSite>http://networks.nokia.com</WebSite>
+                        <LocationSummary>
+                            <Municipality>Buenos Aires</Municipality>
+                            <CountryCode>AR</CountryCode>
+                        </LocationSummary>
+                    </OrgInfo>
+                    <Description>
+                        Responsible for supporting América Móvil GPRS solution and respective network infrastructure
+                        Answered costumer queries, performed fault finding and troubleshooting
+                        Implemented software upgrading and patching
+                    </Description>
+                    <StartDate>
+                        <YearMonth>2006-03</YearMonth>
+                    </StartDate>
+                    <EndDate>
+                        <YearMonth>2006-09</YearMonth>
+                    </EndDate>
+                </PositionHistory>
+            </EmployerOrg>
+
+            <EmployerOrg employerOrgType="directHire">
+                <EmployerOrgName>Inmarsat plc</EmployerOrgName>
+                <PositionHistory positionType="contract">
+                    <Title>System Integration and Testing Engineer</Title>
+                    <OrgName>
+                        <OrganizationName>Engineering Department</OrganizationName>
+                    </OrgName>
+                    <OrgInfo>
+                        <WebSite>http://www.inmarsat.com</WebSite>
+                        <LocationSummary>
+                            <Municipality>Burum</Municipality>
+                            <CountryCode>NL</CountryCode>
+                        </LocationSummary>
+                    </OrgInfo>
+                    <Description>
+                        Integrated and tested all of the network elements in the Inmarsat Broadband Global Area Network (BGAN), a mobile satellite network with more than 100k subscribers
+                        Developed using the C language a network sniffer and event generator software used by the Engineering team for troubleshooting terminal registration issues
+                        Developed a number of system testing methods and procedures, used by a testing team of fifteen testers
+                        Implemented a bug reporting tool by customising and patching the Bugzilla open source software, used by more than forty testers and software developers during the development of the Inmarsat BGAN network
+                        Provided engineering support to the entire operational staff at different sites (London, The Netherlands, Italy, Hawaii)
+                        Acted as liaison between the Engineering staff and equipment manufacturers on 3G standards compliance.
+                        Performed troubleshooting and debugging of Inmarsat BGAN 3G interfaces (Iu, Gn, Gi, Gp, etc.)
+                    </Description>
+                    <StartDate>
+                        <YearMonth>2005-03</YearMonth>
+                    </StartDate>
+                    <EndDate>
+                        <YearMonth>2006-03</YearMonth>
+                    </EndDate>
+                </PositionHistory>
+            </EmployerOrg>
+
+            <EmployerOrg employerOrgType="directHire">
+                <EmployerOrgName>Ericsson España</EmployerOrgName>
+                <PositionHistory positionType="contract">
+                    <Title>Senior Support Engineer</Title>
+                    <OrgName>
+                        <OrganizationName>Field Support Centre</OrganizationName>
+                    </OrgName>
+                    <OrgInfo>
+                        <WebSite>http://www.ericsson.es</WebSite>
+                        <LocationSummary>
+                            <Municipality>Madrid</Municipality>
+                            <CountryCode>ES</CountryCode>
+                        </LocationSummary>
+                    </OrgInfo>
+                    <Description>
+                        Responsible for the investigation of customer service reports
+                        Implemented software release updates and change notes
+                        Installed, configured and performed acceptance tests for new software releases
+                        Responsible for the mobile data Domain Name System (DNS) infrastructure
+                    </Description>
+                    <StartDate>
+                        <YearMonth>2004-04</YearMonth>
+                    </StartDate>
+                    <EndDate>
+                        <YearMonth>2004-10</YearMonth>
+                    </EndDate>
+                </PositionHistory>
+            </EmployerOrg>
+
+            <EmployerOrg employerOrgType="directHire">
+                <EmployerOrgName>Nokia Mexico</EmployerOrgName>
+                <PositionHistory positionType="contract">
+                    <Title>GPRS Consultant</Title>
+                    <OrgName>
+                        <OrganizationName>Engineering Department</OrganizationName>
+                    </OrgName>
+                    <OrgInfo>
+                        <WebSite>http://networks.nokia.com</WebSite>
+                        <LocationSummary>
+                            <Municipality>Mexico City</Municipality>
+                            <CountryCode>MX</CountryCode>
+                        </LocationSummary>
+                    </OrgInfo>
+                    <Description>
+                        Responsible for supporting Telmex and Telgua GPRS solutions and respective network infrastructures in Mexico and Guatemala
+                        Answered costumer queries, performed fault finding and troubleshooting
+                        Implemented software upgrading and patching
+                        Configured, tested and accepted GPRS roaming partners for Telmex
+                        Developed a Charging Data Record (CDR) decoder using the C programming language, used in the troubleshooting of charging issues by the support team
+                        Performed technical hands-on courses on multiple GPRS related topics such as roaming, troubleshooting and DNS, both to Telmex and Nokia employees
+                    </Description>
+                    <StartDate>
+                        <YearMonth>2004-04</YearMonth>
+                    </StartDate>
+                    <EndDate>
+                        <YearMonth>2004-10</YearMonth>
+                    </EndDate>
+                </PositionHistory>
+            </EmployerOrg>
+
+            <EmployerOrg employerOrgType="directHire">
+                <EmployerOrgName>PayShop (Portugal), S.A.</EmployerOrgName>
+                <PositionHistory positionType="directHire">
+                    <Title>Systems and Network administrator</Title>
+                    <OrgName>
+                        <OrganizationName>IT Department</OrganizationName>
+                    </OrgName>
+                    <OrgInfo>
+                        <WebSite>http://www.payshop.pt</WebSite>
+                        <LocationSummary>
+                            <Municipality>Lisbon</Municipality>
+                            <CountryCode>PT</CountryCode>
+                        </LocationSummary>
+                    </OrgInfo>
+                    <Description>
+                        Responsible for the administration, operation and maintenance of all systems and network equipment
+                        Forecasted and planned network expansions and upgrades
+                        Developed and implemented a custom Network Management System solution for monitoring of all the server and network infrastructure
+                        Developed a terminal simulator software using the C programming language to generate network load, used in assessing network and server impact
+                    </Description>
+                    <StartDate>
+                        <YearMonth>2003-10</YearMonth>
+                    </StartDate>
+                    <EndDate>
+                        <YearMonth>2004-04</YearMonth>
+                    </EndDate>
+                </PositionHistory>
+            </EmployerOrg>
+
+            <EmployerOrg employerOrgType="directHire">
+                <EmployerOrgName>Reuters Group</EmployerOrgName>
+                <PositionHistory positionType="directHire">
+                    <Title>Systems Administrator</Title>
+                    <OrgName>
+                        <OrganizationName>IT Department</OrganizationName>
+                    </OrgName>
+                    <OrgInfo>
+                        <WebSite>http://www.reuters.com</WebSite>
+                        <LocationSummary>
+                            <Municipality>Lisbon</Municipality>
+                            <CountryCode>PT</CountryCode>
+                        </LocationSummary>
+                    </OrgInfo>
+                    <Description>
+                        Responsible for Systems and Database administration of the majority of Portuguese Investment banks
+                        Responsible for the deployment and administration of financial software
+                        Teached several Solaris and Linux training courses
+                    </Description>
+                    <StartDate>
+                        <YearMonth>2002-05</YearMonth>
+                    </StartDate>
+                    <EndDate>
+                        <YearMonth>2003-10</YearMonth>
+                    </EndDate>
+                </PositionHistory>
+            </EmployerOrg>
+
+            <EmployerOrg employerOrgType="directHire">
+                <EmployerOrgName>Ericsson Portugal</EmployerOrgName>
+                <PositionHistory positionType="directHire">
+                    <Title>Systems Support Engineer</Title>
+                    <OrgName>
+                        <OrganizationName>Field Support Centre</OrganizationName>
+                    </OrgName>
+                    <OrgInfo>
+                        <WebSite>http://www.ericsson.pt</WebSite>
+                        <LocationSummary>
+                            <Municipality>Lisbon</Municipality>
+                            <CountryCode>PT</CountryCode>
+                        </LocationSummary>
+                    </OrgInfo>
+                    <Description>
+                        Provided network operations and maintenance services to costumers according to maintenance agreements and internal procedures
+                        Responded to daily operations and maintenance queries from costumers
+                        Diagnosed faults and troubleshooted mobile data network problems
+                        Designed, implemented and supported the Wireless Access Protocol (WAP) access infrastructure for all Portuguese mobile operators
+                        Deployed the access network for one of the biggest Portuguese Internet Service Providers
+                        Participated in the trials and role-outs of the first GPRS and 3G networks in Portugal.
+                    </Description>
+                    <StartDate>
+                        <YearMonth>1999-09</YearMonth>
+                    </StartDate>
+                    <EndDate>
+                        <YearMonth>2002-05</YearMonth>
+                    </EndDate>
+                </PositionHistory>
+            </EmployerOrg>
+
+            <EmployerOrg employerOrgType="directHire">
+                <EmployerOrgName>Novis</EmployerOrgName>
+                <PositionHistory positionType="directHire">
+                    <Title>Systems Engineer</Title>
+                    <OrgName>
+                        <OrganizationName>IT Department</OrganizationName>
+                    </OrgName>
+                    <OrgInfo>
+                        <WebSite>http://www.nos.pt</WebSite>
+                        <LocationSummary>
+                            <Municipality>Lisbon</Municipality>
+                            <CountryCode>PT</CountryCode>
+                        </LocationSummary>
+                    </OrgInfo>
+                    <Description>
+                        Worked along with other six team members on the Design, implementation, operation and maintenance of a nation-wide private voice network
+                        Planed, deployed and supported costumer interconnection to Novis private voice network
+                        Conducted testing and acceptance of vendor equipment
+                    </Description>
+                    <StartDate>
+                        <YearMonth>1998-08</YearMonth>
+                    </StartDate>
+                    <EndDate>
+                        <YearMonth>1999-09</YearMonth>
+                    </EndDate>
+                </PositionHistory>
+            </EmployerOrg>
+
+        </EmploymentHistory>
+
+        <EducationHistory>
+
+            <SchoolOrInstitution schoolType="university">
+                <School>
+                    <SchoolName>Instituto Superior de Engenharia de Lisboa</SchoolName>
+                </School>
+                <LocationSummary>
+                    <Municipality>Lisboa</Municipality>
+                    <CountryCode>PT</CountryCode>
+                </LocationSummary>
+                <OrganizationUnit organizationType="department">
+                    Electronics, Telecommunications and Computer Engineering
+                </OrganizationUnit>
+                <Degree degreeType="bachelors">
+                    <DegreeName>B. Eng.</DegreeName>
+                    <DegreeDate>
+                        <YearMonth>1998-04</YearMonth>
+                    </DegreeDate>
+                    <DegreeMajor>
+                        <Name>Electronics, Telecommunications and Computer Engineering</Name>
+                    </DegreeMajor>
+                </Degree>
+            </SchoolOrInstitution>
+
+        </EducationHistory>
+
+        <Qualifications>
+            <Competency name="Programming Languages">
+                <Competency name="Javascript"/>
+                <Competency name="Java"/>
+                <Competency name="PHP"/>
+                <Competency name="C"/>
+            </Competency>
+            <Competency name="Databases">
+                <Competency name="MongoDB"/>
+                <Competency name="MySQL"/>
+            </Competency>
+            <Competency name="Frameworks and Platforms">
+                <Competency name="Node.js"/>
+                <Competency name="Angular"/>
+                <Competency name="ExtJS"/>
+                <Competency name="Ionic"/>
+                <Competency name="Hapi.js"/>
+                <Competency name="Jasmine"/>
+                <Competency name="Bootstrap"/>
+                <Competency name="Spring"/>
+                <Competency name="Hibernate"/>
+                <Competency name="Netty"/>
+                <Competency name="JMS/ActiveMQ"/>
+                <Competency name="Junit"/>
+            </Competency>
+            <Competency name="System Administration">
+                <Competency name="Unix"/>
+                <Competency name="Linux"/>
+                <Competency name="Debian"/>
+                <Competency name="Red Hat"/>
+                <Competency name="Oracle Solaris"/>
+                <Competency name="15 years of experience on Unix/Linux systems and GNU/OpenSource software"/>
+            </Competency>
+            <Competency name="Network Administration">
+                <Competency name="TCP/IP"/>
+                <Competency name="Internet Architecture"/>
+                <Competency name="Routing Protocols"/>
+                <Competency name="Cisco"/>
+            </Competency>
+            <Competency name="Version Control Systems">
+                <Competency name="Subversion"/>
+                <Competency name="Git"/>
+            </Competency>
+            <Competency name="Other skills">
+                <Competency name="technical writing"/>
+                <Competency name="costumer focused"/>
+                <Competency name="self motivated"/>
+                <Competency name="team player"/>
+                <Competency name="mentoring and knowledge sharing"/>
+            </Competency>
+        </Qualifications>
+
+        <Languages>
+            <Language>
+                <LanguageCode>PT</LanguageCode>
+                <Read>true</Read>
+                <Write>true</Write>
+                <Speak>true</Speak>
+                <Comments>Native language</Comments>
+            </Language>
+            <Language>
+                <LanguageCode>EN</LanguageCode>
+                <Read>true</Read>
+                <Write>true</Write>
+                <Speak>true</Speak>
+                <Comments>Excellent written and oral skills</Comments>
+            </Language>
+            <Language>
+                <LanguageCode>ES</LanguageCode>
+                <Read>true</Read>
+                <Write>true</Write>
+                <Speak>true</Speak>
+                <Comments>Good written and excellent oral skills</Comments>
+            </Language>
+        </Languages>
+
+        <ResumeAdditionalItems>
+            <ResumeAdditionalItem type="Activities">
+                <EffectiveDate>
+                    <StartDate>
+                        <Year>2003</Year>
+                    </StartDate>
+                </EffectiveDate>
+                <Description>Founded Eixo Digital</Description>
+            </ResumeAdditionalItem>
+            <ResumeAdditionalItem type="Activities">
+                <EffectiveDate>
+                    <StartDate>
+                        <Year>2012</Year>
+                    </StartDate>
+                    <EndDate>
+                        <Year>2015</Year>
+                    </EndDate>
+                </EffectiveDate>
+                <Description>Founded a Restaurant Business</Description>
+            </ResumeAdditionalItem>
+            <ResumeAdditionalItem type="Hobbies">
+                <EffectiveDate>
+                    <StartDate>
+                        <Year>2007</Year>
+                    </StartDate>
+                </EffectiveDate>
+                <Description>Surfing</Description>
+            </ResumeAdditionalItem>
+            <ResumeAdditionalItem type="Hobbies">
+                <EffectiveDate>
+                    <StartDate>
+                        <Year>2000</Year>
+                    </StartDate>
+                </EffectiveDate>
+                <Description>Snowboarding</Description>
+            </ResumeAdditionalItem>
+            <ResumeAdditionalItem type="Interests">
+                <Description>Traveling</Description>
+            </ResumeAdditionalItem>
+            <ResumeAdditionalItem type="Interests">
+                <Description>Reading</Description>
+            </ResumeAdditionalItem>
+            <ResumeAdditionalItem type="Interests">
+                <Description>Cinema</Description>
+            </ResumeAdditionalItem>
+        </ResumeAdditionalItems>
+
+    </StructuredXMLResume>
+
+</Resume>
