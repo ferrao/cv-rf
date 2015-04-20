@@ -1,3 +1,3 @@
 # cv-rf
 
-My resume in hr-html format
+My résumé in hr-html format

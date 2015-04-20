@@ -378,11 +378,12 @@
             <Competency name="Frameworks and Platforms">
                 <Competency name="Node.js"/>
                 <Competency name="Angular"/>
-                <Competency name="ExtJS"/>
+                <Competency name="Mongoose"/>
                 <Competency name="Ionic"/>
                 <Competency name="Hapi.js"/>
                 <Competency name="Jasmine"/>
                 <Competency name="Bootstrap"/>
+                <AddedCompetency name="ExtJS"/>
                 <Competency name="Spring"/>
                 <Competency name="Hibernate"/>
                 <Competency name="Netty"/>
