@@ -383,7 +383,7 @@
                 <Competency name="Hapi.js"/>
                 <Competency name="Jasmine"/>
                 <Competency name="Bootstrap"/>
-                <AddedCompetency name="ExtJS"/>
+                <Competency name="ExtJS"/>
                 <Competency name="Spring"/>
                 <Competency name="Hibernate"/>
                 <Competency name="Netty"/>
