@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Resume
-        xmlns="http://ns.hr-xml.org/2007-04-15"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://ns.hr-xml.org/2007-04-15 Resume.xsd">
+<Resume xmlns="http://ns.hr-xml.org/2007-04-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.hr-xml.org/2007-04-15 Resume.xsd">
 
     <StructuredXMLResume>
 
@@ -23,22 +20,41 @@
             </ContactMethod>
         </ContactInfo>
 
-        <Objective>
-
-            An enthusiastic, self-motivating and highly committed software engineer, with a tremendous appetite for
-            learning. Worked as a senior Network and Systems Administrator, but missing all the fun and joy from coding
-            decided to go back into Software Development. Throughout the process I discovered that C was no longer cool
-            and had to adjust to Java for a couple of years until Javascript expressiveness caught my attention.
-
-            After prototyping mobile apps with Ionic, getting some rest APIs working with Hapi.js and Node.js, learning
-            some AngularJS, replacing the MySQL installs with MongoDB and testing it all with Jasmine, I am now looking
-            for a career change and pursuing a Javascript Full Stack development path.
-
-        </Objective>
-
-
+        <!--<Objective>
+            An enthusiastic, self-motivating and highly committed software engineer, with a tremendous appetite for learning. Worked as a senior Network and Systems Administrator, but missing all the fun and joy from coding decided to go back into Software
+            Development. Throughout the process I discovered that C was no longer cool and had to adjust to Java for a couple of years until Javascript expressiveness caught my attention. After prototyping mobile apps with Ionic, getting some rest APIs working
+            with Hapi.js and Node.js, learning some AngularJS, replacing the MySQL installs with MongoDB and testing it all with Jasmine, I am now looking for a career change and pursuing a Javascript Full Stack development path.
+        </Objective>-->
 
         <EmploymentHistory>
+
+            <EmployerOrg employerOrgType="directHire">
+                <EmployerOrgName>&lt;Academia de Código_&gt;</EmployerOrgName>
+                <PositionHistory positionType="directHire">
+                    <Title>Chief Technology Officer</Title>
+                    <OrgInfo>
+                        <WebSite>http://www.academiadecodigo.org</WebSite>
+                        <LocationSummary>
+                            <Municipality>Lisbon</Municipality>
+                            <CountryCode>PT</CountryCode>
+                        </LocationSummary>
+                    </OrgInfo>
+                    <Description>
+                        Responsible for overall technology fulfillment and company tech culture
+                        Technical lead on all software development projects
+                        Assisting the management team in securing new business partnerships
+                        Development of the coding bootcamp syllabus
+                        Recrutiment of Master Coders for the coding bootcamp
+                        Selection of tools and support materials for the coding bootcamp
+                        Lecturer at the &lt;Academiade de Código_&gt; coding bootcamp
+                        Interviewed 20+ software developer candidates 
+                        Interviewed 250+ &lt;Academiade de Código_&gt; coding bootcamp candidates 
+                    </Description>
+                    <StartDate>
+                        <YearMonth>2015-06</YearMonth>
+                    </StartDate>
+                </PositionHistory>
+            </EmployerOrg>
 
             <EmployerOrg employerOrgType="soleEmployer">
                 <EmployerOrgName>Eixo Digital, Lda.</EmployerOrgName>
@@ -62,13 +78,16 @@
                         Participated in the development of a Maritime Safety Terminal type approval software, a tool used by Inmarsat for the development and automation of terminal certification tests, using the Java programming language
                         Implemented along with two other team members, the design and development of a Dynamic Telemetry Service for Inmarsat, a High-Availability (99.95%) and geo-replicated service for capturing, storing and distributing telemetry data, using the Java programming language on the backend and Javascript on the frontend and capable of handling an excess of 300 transactions per second
                         Designed and implemented a DNS, web and email hosting service supporting 50+ users
-                        Interviewed 20+ software developer candidates
-                        Oversaw development, technical operations, quality assurance and IT
+                        Interviewed 20+ software developer candidates 
+                        Oversaw development, technical operations, quality assurance and IT 
                         Helped raise over €700K of European investment funds
                     </Description>
                     <StartDate>
                         <YearMonth>2007-09</YearMonth>
                     </StartDate>
+					<EndDate>
+                        <YearMonth>2015-06</YearMonth>
+                    </EndDate>
                 </PositionHistory>
             </EmployerOrg>
 
@@ -116,8 +135,7 @@
                     </OrgInfo>
                     <Description>
                         Responsible for supporting América Móvil GPRS solution and respective network infrastructure
-                        Answered costumer queries, performed fault finding and troubleshooting
-                        Implemented software upgrading and patching
+                        Answered costumer queries, performed fault finding and troubleshooting Implemented software upgrading and patching
                     </Description>
                     <StartDate>
                         <YearMonth>2006-03</YearMonth>
@@ -148,7 +166,7 @@
                         Developed a number of system testing methods and procedures, used by a testing team of fifteen testers
                         Implemented a bug reporting tool by customising and patching the Bugzilla open source software, used by more than forty testers and software developers during the development of the Inmarsat BGAN network
                         Provided engineering support to the entire operational staff at different sites (London, The Netherlands, Italy, Hawaii)
-                        Acted as liaison between the Engineering staff and equipment manufacturers on 3G standards compliance.
+                        Acted as liaison between the Engineering staff and equipment manufacturers on 3G standards compliance
                         Performed troubleshooting and debugging of Inmarsat BGAN 3G interfaces (Iu, Gn, Gi, Gp, etc.)
                     </Description>
                     <StartDate>
@@ -176,8 +194,7 @@
                     </OrgInfo>
                     <Description>
                         Responsible for the investigation of customer service reports
-                        Implemented software release updates and change notes
-                        Installed, configured and performed acceptance tests for new software releases
+                        Implemented software release updates and change notes Installed, configured and performed acceptance tests for new software releases
                         Responsible for the mobile data Domain Name System (DNS) infrastructure
                     </Description>
                     <StartDate>
