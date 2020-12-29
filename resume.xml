@@ -44,11 +44,14 @@
                         Technical lead on all software development projects
                         Assisting the management team in securing new business partnerships
                         Development of the coding bootcamp syllabus
+                        Educative and pedagogical coordination of the coding bootcamp
                         Recrutiment of Master Coders for the coding bootcamp
                         Selection of tools and support materials for the coding bootcamp
                         Lecturer at the &lt;Academiade de Código_&gt; coding bootcamp
-                        Interviewed 20+ software developer candidates 
-                        Interviewed 250+ &lt;Academiade de Código_&gt; coding bootcamp candidates 
+                        Developed a Javascript game engine framework for educational game development for the UBBU k-12 learn to code classroom platform
+                        Developed an admissions process software for registering, teaching, evaluating and selecting bootcamp candidates using React, Node.js and PostgresSQL
+                        Interviewed 40+ software developer candidates 
+                        Interviewed 350+ &lt;Academiade de Código_&gt; coding bootcamp candidates 
                     </Description>
                     <StartDate>
                         <YearMonth>2015-06</YearMonth>
@@ -71,16 +74,16 @@
                         </LocationSummary>
                     </OrgInfo>
                     <Description>
-                        Developed a User Experience Monitor software for collecting test data from Inmarsat BGAN terminals using a full Javascript stack (Angular/Node.js/MongoDB)
-                        Designed and Developed a JSON-RPC based interface for terminal equipment instrumentation and automation using the Java programming language
+                        Oversaw development, technical operations, quality assurance and IT 
+                        Helped raise over €700K of European investment funds
                         Actively involved in a number of successful software development projects for the space segment in collaboration with Inmarsat plc, Cobham Satcom and the European Space Agency (ESA)
                         Implemented along with five other team members, the design and development of the Maritime Safety Server for Cobham Satcom, a High-Availability (99.9%) and geo-replicated system, central part of the Inmarsat Maritime Safety ground infrastructure, using the Java programming language on the backend and Javascript on the frontend
                         Participated in the development of a Maritime Safety Terminal type approval software, a tool used by Inmarsat for the development and automation of terminal certification tests, using the Java programming language
                         Implemented along with two other team members, the design and development of a Dynamic Telemetry Service for Inmarsat, a High-Availability (99.95%) and geo-replicated service for capturing, storing and distributing telemetry data, using the Java programming language on the backend and Javascript on the frontend and capable of handling an excess of 300 transactions per second
+                        Developed a User Experience Monitor software for collecting test data from Inmarsat BGAN terminals using a full Javascript stack comprised of Angular, Node.js and MongoDB)
+                        Designed and Developed a JSON-RPC based interface for terminal equipment instrumentation and automation using the Java programming language
                         Designed and implemented a DNS, web and email hosting service supporting 50+ users
                         Interviewed 20+ software developer candidates 
-                        Oversaw development, technical operations, quality assurance and IT 
-                        Helped raise over €700K of European investment funds
                     </Description>
                     <StartDate>
                         <YearMonth>2007-09</YearMonth>
@@ -369,7 +372,7 @@
                     Electronics, Telecommunications and Computer Engineering
                 </OrganizationUnit>
                 <Degree degreeType="bachelors">
-                    <DegreeName>B. Eng.</DegreeName>
+                    <DegreeName>Bachelor Eng.</DegreeName>
                     <DegreeDate>
                         <YearMonth>1998-04</YearMonth>
                     </DegreeDate>
@@ -385,41 +388,33 @@
             <Competency name="Programming Languages">
                 <Competency name="Javascript"/>
                 <Competency name="Java"/>
-                <Competency name="PHP"/>
-                <Competency name="C"/>
+                <Competency name="C/C++"/>
             </Competency>
             <Competency name="Databases">
                 <Competency name="MongoDB"/>
                 <Competency name="MySQL"/>
+                <Competency name="PostgresSQL"/>
             </Competency>
             <Competency name="Frameworks and Platforms">
+                <Competency name="React"/>
                 <Competency name="Node.js"/>
-                <Competency name="Angular"/>
-                <Competency name="Mongoose"/>
-                <Competency name="Ionic"/>
                 <Competency name="Hapi.js"/>
-                <Competency name="Jasmine"/>
                 <Competency name="Bootstrap"/>
-                <Competency name="ExtJS"/>
                 <Competency name="Spring"/>
                 <Competency name="Hibernate"/>
-                <Competency name="Netty"/>
                 <Competency name="JMS/ActiveMQ"/>
-                <Competency name="Junit"/>
             </Competency>
             <Competency name="System Administration">
                 <Competency name="Unix"/>
                 <Competency name="Linux"/>
                 <Competency name="Debian"/>
                 <Competency name="Red Hat"/>
-                <Competency name="Oracle Solaris"/>
-                <Competency name="20 years of experience on Unix/Linux systems and GNU/OpenSource software"/>
+                <Competency name="25+ years of experience on Unix/Linux systems and GNU/OpenSource software"/>
             </Competency>
             <Competency name="Network Administration">
                 <Competency name="TCP/IP"/>
                 <Competency name="Internet Architecture"/>
                 <Competency name="Routing Protocols"/>
-                <Competency name="Cisco"/>
             </Competency>
             <Competency name="Version Control Systems">
                 <Competency name="Subversion"/>
@@ -459,6 +454,14 @@
         </Languages>
 
         <ResumeAdditionalItems>
+            <ResumeAdditionalItem type="Activities">
+                <EffectiveDate>
+                    <StartDate>
+                        <Year>2015</Year>
+                    </StartDate>
+                </EffectiveDate>
+                <Description>Joined the management team of Academia de Código</Description>
+            </ResumeAdditionalItem>
             <ResumeAdditionalItem type="Activities">
                 <EffectiveDate>
                     <StartDate>
