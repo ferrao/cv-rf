@@ -14,9 +14,9 @@
                     <FormattedNumber>+351 91 031 0848</FormattedNumber>
                 </Mobile>
                 <InternetEmailAddress>mail@ruiferrao.com</InternetEmailAddress>
-                <InternetWebAddress>
+                <!--<InternetWebAddress>
                     http://www.ruiferrao.com
-                </InternetWebAddress>
+                </InternetWebAddress>-->
             </ContactMethod>
         </ContactInfo>
 
@@ -360,6 +360,30 @@
 
         <EducationHistory>
 
+            <SchoolOrInstitution schoolType="online training">
+                <School>
+                    <SchoolName>Udacity, in collaboration with kaggle, aws</SchoolName>
+                </School>
+                <Degree degreeType="nanodegree">
+                    <DegreeName>Machine Learning (undergoing)</DegreeName>
+                    <DegreeDate>
+                        <Year>2021</Year>
+                    </DegreeDate>
+                </Degree>
+            </SchoolOrInstitution>
+
+            <SchoolOrInstitution schoolType="online training">
+                <School>
+                    <SchoolName>Udacity in collaboration with aws, Facebook Artificial Intelligence</SchoolName>
+                </School>
+                <Degree degreeType="nanodegree">
+                    <DegreeName>Deep Learning (undergoing)</DegreeName>
+                    <DegreeDate>
+                        <Year>2021</Year>
+                    </DegreeDate>
+                </Degree>
+            </SchoolOrInstitution>
+
             <SchoolOrInstitution schoolType="university">
                 <School>
                     <SchoolName>Instituto Superior de Engenharia de Lisboa</SchoolName>
@@ -385,6 +409,11 @@
         </EducationHistory>
 
         <Qualifications>
+            <Competency name="Artificial Intelligence (undergoing training, expected completion in 2021)">
+                <Competency name="Neural Networks" />
+                <Competency name="Machine Learning" />
+                <Competency name="Deep Learning" />
+            </Competency>
             <Competency name="Programming Languages">
                 <Competency name="Javascript"/>
                 <Competency name="Java"/>
@@ -407,7 +436,7 @@
             <Competency name="System Administration">
                 <Competency name="Unix"/>
                 <Competency name="Linux"/>
-                <Competency name="Debian"/>
+                <Competency name="Debian/Ubuntu"/>
                 <Competency name="Red Hat"/>
                 <Competency name="25+ years of experience on Unix/Linux systems and GNU/OpenSource software"/>
             </Competency>
@@ -428,6 +457,18 @@
                 <Competency name="mentoring and knowledge sharing"/>
             </Competency>
         </Qualifications>
+
+       <SpeakingEventsHistory>
+            <SpeakingEvent type="panel discussion">
+            <Title>The State of JavaScript</Title>
+        <StartDate>
+            <AnyDate>2021-04-28</AnyDate>
+        </StartDate>
+        <EventName>OPO.JS Discussions</EventName>
+        <EventType>meetup</EventType>
+        <Link>http://opojs.com</Link>
+    </SpeakingEvent>
+        </SpeakingEventsHistory>
 
         <Languages>
             <Language>
@@ -496,6 +537,9 @@
                     </StartDate>
                 </EffectiveDate>
                 <Description>Snowboarding</Description>
+            </ResumeAdditionalItem>
+            <ResumeAdditionalItem type="Interests">
+                <Description>Financial Markets, Trading</Description>
             </ResumeAdditionalItem>
             <ResumeAdditionalItem type="Interests">
                 <Description>Traveling</Description>
